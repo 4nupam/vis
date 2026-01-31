@@ -6,12 +6,13 @@ import Linkedin from "../utils/LinkedIn.svg";
 import insta from "../utils/Insta.svg";
 import x from "../utils/X.svg";
 import compass from "../utils/Compass.svg";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function SecondCompo({ item = {} }) {
   const sectionRef = useRef(null);
   const textRef = useRef(null);
   const imgRef = useRef(null);
-
+gsap.registerPlugin(ScrollTrigger);
   const Data = [Linkedin, insta, x, compass];
 
   useEffect(() => {
