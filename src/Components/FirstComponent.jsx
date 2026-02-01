@@ -112,7 +112,7 @@ export default function FirstComponent() {
       </div>
 
       {/* Review Part */}
-      <div className="flex gap-4 flex-wrap">
+      <div className="grid md:grid-cols-3 grid-cols-1 items-center">
         <ReviewComponent rating={4.2} image={Chrome} />
         <ReviewComponent rating={4.2} image={Product} />
         <ReviewComponent  image={Google} logo={Tick}/>

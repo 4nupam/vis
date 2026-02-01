@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-[var(--color-black)] text-white">
       {/* Top CTA section */}
       <div className="max-w-7xl mx-auto px-6 py-20">
-        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+        <div className="flex flex-col lg:flex-row items-center md:items-start lg:items-center justify-between gap-10">
           
           {/* Text */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium leading-tight max-w-2xl">
@@ -16,7 +16,7 @@ export default function Footer() {
           </h2>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex items-center flex-col sm:flex-row ">
             <CTA name="Try for free" />
             <CTA name="Get a demo" bg={false} />
           </div>
