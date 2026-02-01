@@ -1,14 +1,16 @@
-import FirstComponent from "../Components/FirstComponent";
 import Navbar from "../Components/Navbar";
-import SecondCompo from "../Components/SecondCompo";
+import FirstComponent from "../Components/FirstComponent";
+import SecondCompoFM from "../Components/SecondCompo";
+// import LastSection from "../Components/LastSection";
+import Integrations from "../Components/Integrations";
+import Testimonial from "../Components/Testimonial";
+import Footer from "../Components/Footer";
+
 import image from "../utils/second.svg";
 import second from "../utils/second2.svg";
 import third from "../utils/third.svg";
 import fourth from "../utils/fourth.svg";
 import fifth from "../utils/fifth.svg";
-import Integrations from "../Components/Integrations";
-import Testimonial from "../Components/Testimonial";
-import Footer from "../Components/Footer";
 
 export default function Main() {
   const MainData = [
@@ -64,9 +66,9 @@ export default function Main() {
       <Navbar />
       <FirstComponent />
 
-      {/* Storytelling Sections */}
-      {MainData.map((item) => (
-        <SecondCompo key={item.id} item={item} />
+      {/* Storytelling sections */}
+      {MainData.slice(0, 4).map((item) => (
+        <SecondCompoFM key={item.id} item={item} />
       ))}
 
       <Integrations />
