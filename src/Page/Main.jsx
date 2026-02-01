@@ -9,6 +9,8 @@ import fourth from "../utils/fourth.svg";
 import fifth from "../utils/fifth.svg";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import Integrations from "../Components/Integrations";
+import Testimonial from "../Components/Testimonial";
 export default function Main() {
     gsap.registerPlugin(ScrollTrigger);
      const containerRef = useRef(null);
@@ -93,6 +95,8 @@ export default function Main() {
             <SecondCompo item={e} />
           </section>
         ))}
+        <Integrations/>
+        <Testimonial/>
     </section>
   );
 }
