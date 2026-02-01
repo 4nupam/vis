@@ -1,4 +1,3 @@
-import { useEffect , useRef } from "react";
 import FirstComponent from "../Components/FirstComponent";
 import Navbar from "../Components/Navbar";
 import SecondCompo from "../Components/SecondCompo";
@@ -7,14 +6,11 @@ import second from "../utils/second2.svg";
 import third from "../utils/third.svg";
 import fourth from "../utils/fourth.svg";
 import fifth from "../utils/fifth.svg";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import gsap from "gsap";
 import Integrations from "../Components/Integrations";
 import Testimonial from "../Components/Testimonial";
+import Footer from "../Components/Footer";
+
 export default function Main() {
-    gsap.registerPlugin(ScrollTrigger);
-     const containerRef = useRef(null);
-  const sectionsRef = useRef([]);
   const MainData = [
     {
       id: 0,
@@ -62,41 +58,20 @@ export default function Main() {
       color: "#E6EDFE",
     },
   ];
- useEffect(() => {
-    const sections = sectionsRef.current;
 
-    sections.forEach((section, i) => {
-      gsap.fromTo(
-        section,
-        { opacity: 0, y: 80 },
-        {
-          opacity: 1,
-          y: 0,
-          scrollTrigger: {
-            trigger: section,
-            start: "top 80%",
-            end: "top 30%",
-            scrub: true,
-          },
-        },
-      );
-    });
-
-    return () => ScrollTrigger.killAll();
-  }, []);
   return (
-    <section className="" ref={containerRef}>
+    <div>
       <Navbar />
       <FirstComponent />
 
-      {MainData?.length > 0 &&
-        MainData.map((e) => (
-          <section className="flex flex-col w-full">
-            <SecondCompo item={e} />
-          </section>
-        ))}
-        <Integrations/>
-        <Testimonial/>
-    </section>
+      {/* Storytelling Sections */}
+      {MainData.map((item) => (
+        <SecondCompo key={item.id} item={item} />
+      ))}
+
+      <Integrations />
+      <Testimonial />
+      <Footer />
+    </div>
   );
 }

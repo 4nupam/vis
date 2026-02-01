@@ -1,6 +1,8 @@
 import { IoIosRocket } from "react-icons/io";
 import { MdEventNote } from "react-icons/md";
 import { RiDoubleQuotesL } from "react-icons/ri";
+import { HiUserGroup } from "react-icons/hi";
+import { BsBriefcaseFill } from "react-icons/bs";
 
 const TAG_STYLES = {
   Sales: {
@@ -8,25 +10,47 @@ const TAG_STYLES = {
     text: "text-emerald-700",
     icon: <IoIosRocket />,
   },
-  "Event Management": {
+
+  "Event organization": {
+    bg: "bg-yellow-100",
+    text: "text-yellow-800",
+    icon: <MdEventNote />,
+  },
+
+  Fundraising: {
     bg: "bg-orange-100",
     text: "text-orange-700",
     icon: <IoIosRocket />,
   },
-  Growth: {
-    bg: "bg-indigo-100",
-    text: "text-indigo-700",
-    icon: <MdEventNote />,
-  },
-  Product: {
-    bg: "bg-yellow-100",
-    text: "text-yellow-700",
-    icon: <MdEventNote />,
-  },
-  CRM: {
+
+  Community: {
     bg: "bg-purple-100",
     text: "text-purple-700",
+    icon: <HiUserGroup />,
+  },
+
+  Recruiting: {
+    bg: "bg-violet-100",
+    text: "text-violet-700",
+    icon: <BsBriefcaseFill />,
+  },
+
+  "Press release": {
+    bg: "bg-pink-100",
+    text: "text-pink-700",
     icon: <MdEventNote />,
+  },
+
+  Partnership: {
+    bg: "bg-blue-100",
+    text: "text-blue-700",
+    icon: <HiUserGroup />,
+  },
+
+  Investing: {
+    bg: "bg-rose-100",
+    text: "text-rose-700",
+    icon: <IoIosRocket />,
   },
 };
 
@@ -44,9 +68,9 @@ export default function TestimonialCard({ data }) {
   } = data;
 
   return (
-    <article className="relative h-full rounded-2xl bg-white p-6 shadow-sm hover:shadow-md transition-all">
+    <article className="relative h-full  bg-white border border-black p-6 shadow-sm hover:shadow-md transition-all">
       
-      {/* Quote icon */}
+      {/* Quote Icon */}
       <RiDoubleQuotesL className="absolute top-4 right-4 text-neutral-200 text-2xl" />
 
       {/* Header */}
@@ -90,12 +114,10 @@ export default function TestimonialCard({ data }) {
           return (
             <span
               key={t.id}
-              className={`flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium
+              className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium
                 ${style.bg} ${style.text}`}
             >
-              {style.icon && (
-                <span className="text-sm">{style.icon}</span>
-              )}
+              {style.icon && <span className="text-sm">{style.icon}</span>}
               {t.name}
             </span>
           );

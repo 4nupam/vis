@@ -1,0 +1,93 @@
+{
+  "brand": {
+    "name": "folk.",
+    "logo": "../utils/vislogo.svg.svg",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtube.com"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "title": "Product",
+      "links": [
+        { "label": "Migrate my CRM", "url": "/migrate-crm" },
+        { "label": "Integrations", "url": "/integrations" },
+        { "label": "Bulk email campaigns", "url": "/bulk-email" },
+        { "label": "Pipelines", "url": "/pipelines" },
+        { "label": "Enrichment", "url": "/enrichment" },
+        { "label": "Chrome extension", "url": "/chrome-extension" }
+      ]
+    },
+    {
+      "title": "Use cases",
+      "links": [
+        { "label": "Sales", "url": "/use-cases/sales" },
+        { "label": "Agencies", "url": "/use-cases/agencies" },
+        { "label": "Startups", "url": "/use-cases/startups" },
+        { "label": "Fundraising", "url": "/use-cases/fundraising" },
+        { "label": "Venture Capital", "url": "/use-cases/vc" },
+        { "label": "Recruiting", "url": "/use-cases/recruiting" },
+        { "label": "Partnerships", "url": "/use-cases/partnerships" },
+        { "label": "Gmail", "url": "/integrations/gmail" },
+        { "label": "LinkedIn", "url": "/integrations/linkedin" },
+        { "label": "Outlook", "url": "/integrations/outlook" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "label": "Affiliate program", "url": "/affiliate" },
+        { "label": "Tutorials", "url": "/tutorials" },
+        { "label": "Blog", "url": "/blog" },
+        { "label": "Support", "url": "/support" },
+        { "label": "Download", "url": "/download" },
+        { "label": "Famous lists", "url": "/lists" },
+        { "label": "Explore investor lists", "url": "/investors" },
+        { "label": "Explore funds lists", "url": "/funds" },
+        { "label": "LinkedIn FAQ", "url": "/faq/linkedin" },
+        { "label": "Terms of use", "url": "/terms" },
+        { "label": "Privacy policy", "url": "/privacy" }
+      ]
+    },
+    {
+      "title": "Compare",
+      "links": [
+        { "label": "folk vs HubSpot", "url": "/compare/hubspot" },
+        { "label": "folk vs Pipedrive", "url": "/compare/pipedrive" },
+        { "label": "folk vs Airtable", "url": "/compare/airtable" },
+        { "label": "folk vs Monday CRM", "url": "/compare/monday" }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        { "label": "We're hiring", "url": "/careers" },
+        { "label": "Pricing", "url": "/pricing" },
+        { "label": "Changelog", "url": "/changelog" },
+        { "label": "Contact us", "url": "/contact" }
+      ]
+    },
+    {
+      "title": "Free tools",
+      "links": [
+        { "label": "Email icebreaker writer", "url": "/tools/icebreaker" },
+        { "label": "Cold email generator", "url": "/tools/cold-email" },
+        { "label": "Sales script generator", "url": "/tools/sales-script" },
+        { "label": "Sales quote generator", "url": "/tools/sales-quote" },
+        { "label": "All free tools", "url": "/tools" }
+      ]
+    }
+  ]
+}

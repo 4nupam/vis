@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Media",
+    "icon": "FaPhotoVideo",
+    "color": "#FF5733"
+  },
+  {
+    "text": "Podcast",
+    "icon": "FaPodcast",
+    "color": "#33C1FF"
+  },
+  {
+    "text": "AI",
+    "icon": "FaRobot",
+    "color": "#9D33FF"
+  },
+  {
+    "text": "Development",
+    "icon": "FaCode",
+    "color": "#33FF57"
+  },
+  {
+    "text": "Recruiting",
+    "icon": "FaUsers",
+    "color": "#FFC300"
+  },
+  {
+    "text": "Consultancy",
+    "icon": "FaHandshake",
+    "color": "#FF33A8"
+  }
+]

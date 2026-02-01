@@ -80,3 +80,10 @@ button {
   background-color: var(--color-purple);
   color: var(--color-black);
 }
+.tag-pill {
+  @apply px-4 py-2 rounded-full text-sm font-medium flex items-center gap-2;
+  background: rgba(255,255,255,0.08);
+  color: white;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.15);
+}

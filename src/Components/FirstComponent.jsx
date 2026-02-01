@@ -9,7 +9,7 @@ import Chrome from "../utils/visChrome.svg";
 import Product from "../utils/visProduct.svg";
 import Google from "../utils/visGoogle.svg";
 import Tick from "../utils/Tick.svg"
-import CTA from "./CTA";
+import CTA from "./Button/CTA";
 import ReviewComponent from "./ReviewComponent";
 
 export default function FirstComponent() {

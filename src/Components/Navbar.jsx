@@ -3,7 +3,7 @@ import gsap from "gsap";
 import Logo from "../utils/vislogo.svg";
 import { FaAngleDown, FaBars } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
-import CTA from "./CTA";
+import CTA from "./Button/CTA";
 
 export default function Navbar() {
   const navRef = useRef(null);

@@ -1,5 +1,5 @@
 import Image from "../utils/Integrations.svg";
-import CTA from "./CTA";
+import CTA from "./Button/CTA";
 export default function Integrations() {
   return (
     <section className="flex flex-col py-12 h-screen justify-center gap-4 bg-white items-center">

@@ -4,83 +4,79 @@
     "name": "Morgan Pelissier",
     "company_logo": "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg",
     "company_name": "Sparkmate",
-    "position": "Co-founder",
+    "position": "Founder",
     "image": "https://images.pexels.com/photos/14248132/pexels-photo-14248132.jpeg",
-    "description": "With Airtable, we had to create everything from scratch. Everything was very manual and required custom integrations. We’re here to build relationships, not manage spreadsheets.",
+    "description": "With Airtable, we had to create everything from scratch. Everything was very manual and needed a lot of DIY with custom integrations. It wouldn’t make sense to manage our events in a sales pipe. We’re here to build relationships.",
     "tag": [
-      {
-        "id": 1,
-        "name": "Sales",
-        "icon": "rocket"
-      },
-      {
-        "id": 2,
-        "name": "Event Management",
-        "icon": "event"
-      }
+      { "id": 1, "name": "Sales", "icon": "rocket" },
+      { "id": 2, "name": "Event organization", "icon": "event" }
     ]
   },
   {
     "id": 2,
-    "name": "Sarah Thompson",
-    "company_logo": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
-    "company_name": "Flowstack",
-    "position": "Head of Growth",
-    "image": "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg",
-    "description": "Folk completely changed the way we manage our outreach. Everything feels human, contextual, and incredibly easy to use across teams.",
+    "name": "Amir Ashkenazi",
+    "company_logo": "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg",
+    "company_name": "Switchboard",
+    "position": "CEO",
+    "image": "https://images.pexels.com/photos/14248132/pexels-photo-14248132.jpeg",
+    "description": "Instead of leaving contacts spread across emails and LinkedIn, folk lets me centralize and segment my contacts the way I want and communicate with my community easily.",
     "tag": [
-      {
-        "id": 1,
-        "name": "Growth",
-        "icon": "rocket"
-      },
-      {
-        "id": 2,
-        "name": "CRM",
-        "icon": "crm"
-      }
+      { "id": 1, "name": "Fundraising", "icon": "rocket" },
+      { "id": 2, "name": "Sales", "icon": "rocket" },
+      { "id": 3, "name": "Community", "icon": "event" }
     ]
   },
   {
     "id": 3,
-    "name": "Daniel Rivera",
-    "company_logo": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
-    "company_name": "Meetly",
-    "position": "Product Manager",
-    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
-    "description": "We finally found a CRM that adapts to our workflow instead of forcing us into rigid pipelines. The experience feels modern and thoughtful.",
+    "name": "Elisa Reggiardo",
+    "company_logo": "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg",
+    "company_name": "Slite",
+    "position": "Partner Marketing",
+    "image": "https://images.pexels.com/photos/14248132/pexels-photo-14248132.jpeg",
+    "description": "It’s so easy for me to keep track and set reminders to follow up with prospective partners, so nothing ever falls through the cracks.",
     "tag": [
-      {
-        "id": 1,
-        "name": "Product",
-        "icon": "product"
-      },
-      {
-        "id": 2,
-        "name": "Collaboration",
-        "icon": "collaboration"
-      }
+      { "id": 1, "name": "Partnership", "icon": "event" }
     ]
   },
   {
     "id": 4,
-    "name": "Emily Chen",
-    "company_logo": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
-    "company_name": "Launchpad",
-    "position": "Operations Lead",
-    "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
-    "description": "Managing events, partnerships, and follow-ups used to be chaotic. Folk brought clarity and structure without killing flexibility.",
+    "name": "Shibin M",
+    "company_logo": "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg",
+    "company_name": "Techstars",
+    "position": "Portfolio Manager",
+    "image": "https://images.pexels.com/photos/14248132/pexels-photo-14248132.jpeg",
+    "description": "We used to manage contacts in Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.",
     "tag": [
-      {
-        "id": 1,
-        "name": "Operations",
-        "icon": "operations"
-      },
-      {
-        "id": 2,
-        "name": "Events",
-        "icon": "event"
-      }
+      { "id": 1, "name": "Investing", "icon": "rocket" },
+      { "id": 2, "name": "Community", "icon": "event" },
+      { "id": 3, "name": "Event organization", "icon": "event" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sarah Barron",
+    "company_logo": "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg",
+    "company_name": "eFounders",
+    "position": "Community Lead",
+    "image": "https://images.pexels.com/photos/14248132/pexels-photo-14248132.jpeg",
+    "description": "For major communication campaigns, entrepreneurs at eFounders leverage a network of journalists and influencers that we’ve built over the years and constantly update using folk.",
+    "tag": [
+      { "id": 1, "name": "Recruiting", "icon": "event" },
+      { "id": 2, "name": "Press release", "icon": "event" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Benjamin Tincq",
+    "company_logo": "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg",
+    "company_name": "Marble (studio)",
+    "position": "Partner",
+    "image": "https://images.pexels.com/photos/14248132/pexels-photo-14248132.jpeg",
+    "description": "Every time I find someone interesting—an expert or founder—I add them using folkX with a tag and relevant info, then create a reminder to follow up later.",
+    "tag": [
+      { "id": 1, "name": "Community", "icon": "event" },
+      { "id": 2, "name": "Recruiting", "icon": "event" },
+      { "id": 3, "name": "Fundraising", "icon": "rocket" }
     ]
   }
 ]
